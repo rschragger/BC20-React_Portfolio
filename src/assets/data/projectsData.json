@@ -1,0 +1,44 @@
+[
+    {
+      "imageUrl": "https://raw.githubusercontent.com/rschragger/Farmers-Market-Organiser/main/instructions/FMO_Screenshot.png",
+      "title": "Farmers Market Organiser",
+      "Description": "This application will provide organisational services to companies that conduct Farmers Market operations. It will allow them to organise the rental of their stores online and utilise their clients' details to help inform the general public and help advertise the markets.",
+      "deployedLink": "https://farmers-market-organiser-app.herokuapp.com/",
+      "githubLink": "https://github.com/rschragger/Farmers-Market-Organiser"
+    },
+    {
+      "imageUrl": "https://raw.githubusercontent.com/rschragger/BC06-02-Weather-Dashboard/main/Instructions/Screen%20Shot%20-Home%20Screen.png",
+      "title": "Weather Dashboard",
+      "Description": "A dashboard showing weather data for cities we can search for. These cities can be added to our list as buttons so that we have a one-push access to past detinations.",
+      "deployedLink": "https://rschragger.github.io/BC06-02-Weather-Dashboard/",
+      "githubLink": "https://github.com/rschragger/BC06-02-Weather-Dashboard"
+    },
+    {
+      "imageUrl": "https://raw.githubusercontent.com/rschragger/BC04-02-Code-Quiz/main/assets/images/Home.png",
+      "title": "Code Quiz",
+      "Description": "This is a timed coding quiz for fun and education. As you progress through the questions, at a time-scale you specify, time is deducted for any wrong answer making higher scores harder to achieve.\nTry your luck and rate your skill! ",
+      "deployedLink": "https://github.com/rschragger/BC04-02-Code-Quiz",
+      "githubLink": "https://github.com/rschragger/BC04-02-Code-Quiz"
+    },
+    {
+      "imageUrl": "https://raw.githubusercontent.com/rschragger/BC03-02-Password-Generator/main/assets/images/ScreenShot2.png",
+      "title": "Password Generator",
+      "Description": "Javascript password generator to create randomised passwords with control over the specifics. This tool can help with sites that have very specific requirements",
+      "deployedLink": "https://rschragger.github.io/BC03-02-Password-Generator/",
+      "githubLink": "https://github.com/rschragger/BC03-02-Password-Generator"
+    },
+    {
+      "imageUrl": "https://raw.githubusercontent.com/rschragger/BC19-PWA_Text-Editor/main/instructions/Screen%20Shot%202022-10-01%20at%205.31.28%20pm.png",
+      "title": "Text Editor - Progressive Web App",
+      "Description": "A browser based text editor. This text editor is a Progressive Web App that can be run offline and will still retain data that can be manipulated until one goes online again. The app can be installed on a local machine with all the same functionality.",
+      "deployedLink": "https://bc19-jate.herokuapp.com/",
+      "githubLink": "https://github.com/rschragger/BC19-PWA_Text-Editor"
+    },
+    {
+      "imageUrl": "https://raw.githubusercontent.com/rschragger/MAR/main/assets/images/Screenshots/Fav%2C%20video%2C%20youtube.png",
+      "title": "Top Ten Music and Lyrics",
+      "Description": "This application will give you the top ten music tracks on various charts. From this list, you'll be able to view and/or hear the songs and also get the lyrics for each, plus some other interesting information",
+      "deployedLink": "https://rschragger.github.io/MAR/",
+      "githubLink": "https://github.com/rschragger/MAR"
+    }
+   ]

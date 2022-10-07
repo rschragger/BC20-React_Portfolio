@@ -2,7 +2,7 @@ import React from 'react'
 
 const Header = () => {
   return (
-    <header>Reeve Schragger Portfolio</header>
+    <header className='jumbotron'>Reeve Schragger Portfolio</header>
   )
 }
 
