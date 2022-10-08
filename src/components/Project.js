@@ -1,8 +1,28 @@
 import React from 'react'
 
-const Project = () => {
+const Project = ({ projectsData }) => {
   return (
-    <div className='card'>Project</div>
+    <div className='container g-5'>
+    <div className='row '>
+
+
+      {projectsData.map((item)=>
+      <div className='col-sm-6'>
+      <div className="card m-2 p-2" key={item.id}>
+      <div className="embed-responsive embed-responsive-2by1">
+     <img alt={item.title} className="card-img-top embed-responsive-item" src={item.imageUrl} />
+  </div>
+        <h3 className="card-title">{item.id} {item.title}</h3>
+        <desc class="card-text">{item.description}</desc>
+        imageUrl deployedLink	githubLink
+
+        </div>
+        </div>
+)}
+      
+      <p></p>
+      </div>
+      </div>
   )
 }
 
