@@ -2,8 +2,8 @@ import React from 'react'
 
 const Project = ({ projectsData }) => {
   return (
-    <div className='container g-5'>
-    <div className='row '>
+    <div className='container  g-5'>
+    <div className='row'>
 
 
       {projectsData.map((item)=>
@@ -13,9 +13,9 @@ const Project = ({ projectsData }) => {
      <img alt={item.title} className="card-img-top embed-responsive-item" src={item.imageUrl} />
   </div>
         <h3 className="card-title">{item.id} {item.title}</h3>
-        <desc class="card-text">{item.description}</desc>
-        imageUrl deployedLink	githubLink
-
+        <desc className="card-text">{item.description}</desc>
+        <depl className="card-text">{item.deployedLink}</depl>
+        <githb className="card-text">{item.githubLink}</githb>
         </div>
         </div>
 )}

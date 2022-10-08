@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "section": "About Me",
+    "tooltip": "details about Reeve Schragger",
+    "url": "/"
+  },
+  {
+    "id": 2,
+    "section": "Portfolio",
+    "tooltip": "Some projects Reeve has completed",
+    "url": "/"
+  },
+  {
+    "id": 3,
+    "section": "Contact",
+    "tooltip": "Send me a message",
+    "url": "/"
+  },
+  {
+    "id": 4,
+    "section": "Resume",
+    "tooltip": "My current resumé",
+    "url": "/"
+  }
+ ]
