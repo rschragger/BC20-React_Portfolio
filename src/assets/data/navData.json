@@ -3,24 +3,28 @@
     "id": 1,
     "section": "About Me",
     "tooltip": "details about Reeve Schragger",
-    "url": "/"
+    "url": "/",
+    "sectionName": "AboutMe"
   },
   {
     "id": 2,
     "section": "Portfolio",
     "tooltip": "Some projects Reeve has completed",
-    "url": "/"
+    "url": "/",
+    "sectionName": "Portfolio"
   },
   {
     "id": 3,
     "section": "Contact",
     "tooltip": "Send me a message",
-    "url": "/"
+    "url": "/",
+    "sectionName": "Contact"
   },
   {
     "id": 4,
-    "section": "Resume",
+    "section": "Resumé",
     "tooltip": "My current resumé",
-    "url": "/"
+    "url": "/",
+    "sectionName": "Resume"
   }
  ]
