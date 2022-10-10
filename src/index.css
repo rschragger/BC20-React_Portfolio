@@ -83,8 +83,8 @@ header {
   display: flex;
   flex-wrap: wrap;
   width: 100%;
-  margin: var(--margin);
-  padding: var(--padding);
+  /* margin: var(--margin);
+  padding: var(--padding); */
 }
 
 .logo-img{
@@ -388,11 +388,12 @@ nav {
   }
 
   .nav-item {
+    color:var(--highlight);
     font-size: 1rem;
     justify-content: space-around;
     border-bottom: 1px solid var(--highlight);
     border-left: none;
-    min-width: 45%;
+    /* min-width: 45%; */
     margin: var(--margin);
   }
 }
