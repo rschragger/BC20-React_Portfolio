@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "level": "Tertiary",
+    "courseName": "Monash University Coding Boot Camp 2022",
+    "show": "active"
+  },
+  {
+    "id": 2,
+    "level": "Tertiary",
+    "courseName": "Bachelor of Arts in Product Design - Curtin University, Western Australia",
+    "show": "active"
+  },
+  {
+    "id": 3,
+    "level": "Tertiary",
+    "courseName": "Bachelor of Engineering (1 Semester- Passed) - University of Western Australia",
+    "show": ""
+  },
+  {
+    "id": 4,
+    "level": "Other",
+    "courseName": "First Aid (1990 & 2017)",
+    "show": "active"
+  },
+  {
+    "id": 5,
+    "level": "High School",
+    "courseName": "Gifted and Talented Programme - Mt Lawley Senior High",
+    "show": ""
+  }
+ ]

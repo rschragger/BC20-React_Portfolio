@@ -8,7 +8,6 @@ const Header = (props) => {
     <header>
       <section className="container-fluid" style={props.bgStyle} >
         <h1 className='container-fluid p-4 m-0'>Reeve Schragger - Portfolio</h1>
-        {/* <img src={headerImage}></img> */}
 
       </section>
       {/* <Navigation navData={navData} /> */}

@@ -14,24 +14,31 @@ import Footer from './components/Footer';
 // Data
 import navData from './assets/data/navData.json'
 import projectsData from './assets/data/projectsData.json'
+import qualificationsData from './assets/data/qualificationsData.json'
+import refereeData from './assets/data/refereeData.json'
+import workHistoryData from './assets/data/workHistoryData.json'
 
 import logo from './logo.svg';
 
 
 function App() {
-  const [sector, setSector] = useState('AboutMe');
+  const [sector, setSector] = useState('Resume');
   const handleSector = (sector) => setSector(sector);
 
   return (
     <div className="container">
       <Header />
       {/* {sector} */}
-      <Navigation navData={navData} handleSector ={handleSector} />
+      <Navigation navData={navData} handleSector={handleSector} />
 
       {(sector === 'AboutMe') ? (<AboutMe />) : ('')}
       {(sector === 'Portfolio') ? (< Project projectsData={projectsData} />) : ('')}
       {(sector === 'ContactForm') ? (<ContactForm />) : ('')}
-      {(sector === 'Resume') ? (<Resume />) : ('')}
+      {(sector === 'Resume') ? (<Resume
+        refereeData={refereeData}
+        workHistoryData={workHistoryData}
+        qualificationsData={qualificationsData}
+      />) : ('')}
 
       <Footer />
     </div>

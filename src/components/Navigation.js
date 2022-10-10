@@ -7,8 +7,6 @@ const Navigation = ({ navData, bgStyle, handleSector }) => {
       <ul className="navbar-nav d-flex flex-sm-row justify-content-end flex-wrap">
         {navData.map((item) => (
           <li className="nav-item " key={item.id} onClick={() => handleSector(item.sectionName)}>
-            {/* <li className="nav-item active " key={item.id}> */}
-            {/* <a className="nav-link" href={item.url}>{item.section}</a> */}
             {item.section}
           </li>
 

@@ -8,7 +8,7 @@ const AboutMe = () => {
       <div className="flex col-md-5 col-sm-6">
         <img alt="Reeve Schragger headshot" className="container" src={reeveImage} />
       </div>
-      <div ClassName="container-fluid ">
+      <div className="container-fluid ">
         <div className='h3'>Reeve Schragger
         <div className='text-muted'>Print automator and problem solver</div></div>
         <div className='card-text'>Digital print creation professional with automation and variable data speciality.
