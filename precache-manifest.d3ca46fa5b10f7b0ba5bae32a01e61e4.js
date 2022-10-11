@@ -1,23 +1,23 @@
 self.__precacheManifest = [
   {
-    "revision": "b1133947d80848fe478f",
-    "url": "/BC20-React_Portfolio/static/css/main.ad753d75.chunk.css"
+    "revision": "92c9eda95324d247cf30",
+    "url": "/BC20-React_Portfolio/static/css/main.efccb5c8.chunk.css"
   },
   {
-    "revision": "b1133947d80848fe478f",
-    "url": "/BC20-React_Portfolio/static/js/main.b1133947.chunk.js"
+    "revision": "92c9eda95324d247cf30",
+    "url": "/BC20-React_Portfolio/static/js/main.92c9eda9.chunk.js"
   },
   {
     "revision": "7f8c91ddc4b58ecb5b87",
     "url": "/BC20-React_Portfolio/static/js/1.7f8c91dd.chunk.js"
   },
   {
-    "revision": "6bc5241a14b2680bc192",
+    "revision": "8540fae710bfbb5fb934",
     "url": "/BC20-React_Portfolio/static/css/2.4e0ce0b9.chunk.css"
   },
   {
-    "revision": "6bc5241a14b2680bc192",
-    "url": "/BC20-React_Portfolio/static/js/2.6bc5241a.chunk.js"
+    "revision": "8540fae710bfbb5fb934",
+    "url": "/BC20-React_Portfolio/static/js/2.8540fae7.chunk.js"
   },
   {
     "revision": "b401de0bf0dbe44cc178",
@@ -36,7 +36,7 @@ self.__precacheManifest = [
     "url": "/BC20-React_Portfolio/static/media/logo.8e3dff9c.svg"
   },
   {
-    "revision": "b87bd35f2168c6e53a3c9b4e3582c76b",
+    "revision": "42a5a2e55a7e47d513d028aa070099f8",
     "url": "/BC20-React_Portfolio/index.html"
   }
 ];
