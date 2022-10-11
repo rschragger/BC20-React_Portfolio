@@ -22,7 +22,7 @@ import logo from './logo.svg';
 
 
 function App() {
-  const [sector, setSector] = useState('Resume');
+  const [sector, setSector] = useState('ContactForm');
   const handleSector = (sector) => setSector(sector);
 
   return (
