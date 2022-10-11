@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import emailjs from '@emailjs/browser'
 
 //Validation util
 import { /*checkPassword, */ validateEmail } from '../utils/helpers';
@@ -7,7 +8,6 @@ const ContactForm = () => {
 
   const [email, setEmail] = useState('');
   const [userName, setUserName] = useState('');
-  // const [password, setPassword] = useState('');
   const [message, setMessage] = useState('');
 
   const [errorMessage, setErrorMessage] = useState('');
@@ -37,7 +37,24 @@ const ContactForm = () => {
 
       return;
     }
-    alert(`Hello ${userName} ${email} ${message}`);
+    //alert(`Hello ${userName} ${email} ${message}`);
+
+    // emailjs.sendForm('service_fw6i9q9', 'template_flc00kt', '#contactform')
+    // .then(function(response) {
+    //    console.log('SUCCESS!', response.status, response.text);
+    // }, function(error) {
+    //    console.log('FAILED...', error);
+    // });
+    var templateParams = {
+      name: userName, email: email, message: message
+    };
+    emailjs.send('service_fw6i9q9', 'template_flc00kt', templateParams,'CL_6jbMFvX0wMK98W')
+      .then(function (response) {
+        console.log('SUCCESS!', response.status, response.text);
+      }, function (error) {
+        console.log('FAILED...', error);
+      });
+
 
     // Clear input after submit
     setUserName('');
@@ -49,7 +66,7 @@ const ContactForm = () => {
     <div className="container-fluid ">
       <p>{(userName) ? (<>Hello {userName}</>) : (<><br /></>)}</p>
       <div className='row'>
-        <form className="form col-12">
+        <form className="form col-12" id="contactform">
 
           {/* email  */}
           <div className="input-group mb-3">
