@@ -1,20 +1,18 @@
 {
-  "main.css": "/BC20-React_Portfolio/static/css/main.efccb5c8.chunk.css",
-  "main.js": "/BC20-React_Portfolio/static/js/main.92c9eda9.chunk.js",
-  "main.js.map": "/BC20-React_Portfolio/static/js/main.92c9eda9.chunk.js.map",
-  "static/js/1.7f8c91dd.chunk.js": "/BC20-React_Portfolio/static/js/1.7f8c91dd.chunk.js",
-  "static/js/1.7f8c91dd.chunk.js.map": "/BC20-React_Portfolio/static/js/1.7f8c91dd.chunk.js.map",
-  "static/css/2.4e0ce0b9.chunk.css": "/BC20-React_Portfolio/static/css/2.4e0ce0b9.chunk.css",
-  "static/js/2.8540fae7.chunk.js": "/BC20-React_Portfolio/static/js/2.8540fae7.chunk.js",
-  "static/js/2.8540fae7.chunk.js.map": "/BC20-React_Portfolio/static/js/2.8540fae7.chunk.js.map",
-  "runtime~main.js": "/BC20-React_Portfolio/static/js/runtime~main.b401de0b.js",
-  "runtime~main.js.map": "/BC20-React_Portfolio/static/js/runtime~main.b401de0b.js.map",
-  "static/media/SandbarPointWalter.jpg": "/BC20-React_Portfolio/static/media/SandbarPointWalter.adf6770b.jpg",
-  "static/media/ReeveSchragger_Headshot.jpg": "/BC20-React_Portfolio/static/media/ReeveSchragger_Headshot.5c6b3199.jpg",
-  "static/media/logo.svg": "/BC20-React_Portfolio/static/media/logo.8e3dff9c.svg",
-  "static/css/main.efccb5c8.chunk.css.map": "/BC20-React_Portfolio/static/css/main.efccb5c8.chunk.css.map",
-  "static/css/2.4e0ce0b9.chunk.css.map": "/BC20-React_Portfolio/static/css/2.4e0ce0b9.chunk.css.map",
-  "index.html": "/BC20-React_Portfolio/index.html",
-  "precache-manifest.d3ca46fa5b10f7b0ba5bae32a01e61e4.js": "/BC20-React_Portfolio/precache-manifest.d3ca46fa5b10f7b0ba5bae32a01e61e4.js",
-  "service-worker.js": "/BC20-React_Portfolio/service-worker.js"
+  "files": {
+    "main.css": "/BC20-React_Portfolio/static/css/main.55a22833.css",
+    "main.js": "/BC20-React_Portfolio/static/js/main.3bee6900.js",
+    "static/js/787.972a6553.chunk.js": "/BC20-React_Portfolio/static/js/787.972a6553.chunk.js",
+    "static/media/SandbarPointWalter.jpg": "/BC20-React_Portfolio/static/media/SandbarPointWalter.95de90424f344ba24015.jpg",
+    "static/media/ReeveSchragger_Headshot.jpg": "/BC20-React_Portfolio/static/media/ReeveSchragger_Headshot.989188b990cfe1046453.jpg",
+    "static/media/logo.svg": "/BC20-React_Portfolio/static/media/logo.7e906ac4964a06131b836c94c9a52f8f.svg",
+    "index.html": "/BC20-React_Portfolio/index.html",
+    "main.55a22833.css.map": "/BC20-React_Portfolio/static/css/main.55a22833.css.map",
+    "main.3bee6900.js.map": "/BC20-React_Portfolio/static/js/main.3bee6900.js.map",
+    "787.972a6553.chunk.js.map": "/BC20-React_Portfolio/static/js/787.972a6553.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.55a22833.css",
+    "static/js/main.3bee6900.js"
+  ]
 }
