@@ -1,9 +1,10 @@
 import React from 'react'
-
+import reeveImage from '../assets/images/ReeveSchragger_Headshot.jpg'
+import resumePdf from "../assets/images/CV-ReeveSchragger_2022.pdf"
 
 const Resume = ({ refereeData, qualificationsData, techData, workHistoryData }) => {
   return (
-    <div className='container-fluid'>
+    <div className='container-fluid   m-1 p-2 '>
       <br />
       <h3 className='name' >Reeve Schragger</h3>
       <div className='introduction'>
@@ -12,17 +13,25 @@ const Resume = ({ refereeData, qualificationsData, techData, workHistoryData }) 
         I’m “the guy” people gravitate towards when something needs to happen.<br />
       </div>
 
+
+
       {/* personal details  */}
       <h4 className='subhead'>Personal Details	</h4>
-      <ul className='list-unstyled'>
-        <li>Reeve Schragger</li>
-        <li>BA - Industrial Design (Graphics and Computing Minors)</li>
-        <li>Ormond VIC 3204</li>
-        <li>0423 707 276</li>
-        <li><a href='mailto:reeve@whitestudio.net.au' >reeve@whitestudio.net.au</a></li>
+      <div className='container d-flex flex-wrap justify-content-evenly'>
+        <div className="col-3  ">
+          <img alt="Reeve Schragger headshot"  src={reeveImage} style={{ maxWidth: '100px' }} />  
+          {/* <img alt="Reeve Schragger headshot"  src={reeveImage} style={{ maxWidth: '100px' }} /> */}
+        </div>
 
-      </ul>
+        <ul className='list-unstyled col-8'>
+          <li>Reeve Schragger</li>
+          <li>BA - Industrial Design (Graphics and Computing Minors)</li>
+          <li>Ormond VIC 3204</li>
+          <li>0423 707 276</li>
+          <li><a href='mailto:reeve@whitestudio.net.au' >reeve@whitestudio.net.au</a></li>
 
+        </ul>
+      </div>
       {/* Personal Strengths  */}
       <h4 className='subhead'>Personal Strengths</h4>
       <div className='strengths'>
@@ -33,13 +42,13 @@ const Resume = ({ refereeData, qualificationsData, techData, workHistoryData }) 
         Well-liked and easy to work with, inspiring loyalty in my staff.<br />
         Clearance for secure Government Print (State of Victoria)<br />
         Have always been able to operate computer programs across PC and Mac platforms at an advanced level. Some examples of programs I have proficiency in include;<br />
-
-        {
-          techData.map((td)=>(
-            <div className={"badge m-1 "+ td.colour} style={{color:'black'}} key={td.id}>{td.tech}</div>
-         ))
-        }
-       
+        <div className="d-flex flex-wrap justify-content-evenly">
+          {
+            techData.map((td) => (
+              <div className={"badge m-1 " + td.colour} style={{ color: 'black' }} key={td.id}>{td.tech}</div>
+            ))
+          }
+        </div>
         {/* <div className='badge text-bg-red' >test1</div>
         FileMaker Pro, Applescript®, Illustrator, PhotoShop, Acrobat, Indesign, Pitstop, Microsoft Excel, Microsoft Word, Pageflex, DirectSmile<br /> */}
       </div>
