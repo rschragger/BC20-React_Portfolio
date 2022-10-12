@@ -2,13 +2,14 @@ import React, { useState } from 'react'
 import emailjs from '@emailjs/browser'
 
 //Validation util
-import { /*checkPassword, */ validateEmail } from '../utils/helpers';
+import { validateEmail } from '../utils/helpers';
 
 const ContactForm = () => {
 
   const [email, setEmail] = useState('');
   const [userName, setUserName] = useState('');
   const [message, setMessage] = useState('');
+  const [submitted, setsubmitted] = useState('');
 
   const [errorMessage, setErrorMessage] = useState('');
 
@@ -26,29 +27,36 @@ const ContactForm = () => {
     } else {
       setMessage(inputValue);
     }
+
+    if (!email && !userName) {
+      setErrorMessage('')
+    } else if (!validateEmail(email)) {
+      setErrorMessage('Valid Email address is required');
+    } else if (!userName) {
+      setErrorMessage('A username is required');
+    } else { setErrorMessage('') }
+
+    return
   };
 
   const handleFormSubmit = (e) => {
     e.preventDefault();
 
-    // Validate email address
-    if (!validateEmail(email) || !userName) {
-      setErrorMessage('Valid Email and a username is required');
-
+    // Validate email address and ends submit on error
+    if (!validateEmail(email)) {
+      setErrorMessage('Valid Email address is required');
       return;
     }
-    //alert(`Hello ${userName} ${email} ${message}`);
+    // Validate user name and ends submit on error
+    if (!userName) {
+      setErrorMessage('A username is required');
+      return;
+    }
 
-    // emailjs.sendForm('service_fw6i9q9', 'template_flc00kt', '#contactform')
-    // .then(function(response) {
-    //    console.log('SUCCESS!', response.status, response.text);
-    // }, function(error) {
-    //    console.log('FAILED...', error);
-    // });
     var templateParams = {
       name: userName, email: email, message: message
     };
-    emailjs.send('service_fw6i9q9', 'template_flc00kt', templateParams,'CL_6jbMFvX0wMK98W')
+    emailjs.send('service_fw6i9q9', 'template_flc00kt', templateParams, 'CL_6jbMFvX0wMK98W')
       .then(function (response) {
         console.log('SUCCESS!', response.status, response.text);
       }, function (error) {
@@ -57,28 +65,32 @@ const ContactForm = () => {
 
 
     // Clear input after submit
+    setsubmitted(`Email was sent to ${userName} at ${email}`)
     setUserName('');
     setMessage('');
     setEmail('');
+
   };
 
   return (
     <div className="container-fluid ">
-      <p>{(userName) ? (<>Hello {userName}</>) : (<><br /></>)}</p>
+      <p>{(userName) ? (<>Hello {userName}</>) :
+        ((submitted) ? (<>{submitted}</>) : (<><br /></>))}</p>
       <div className='row'>
-        <form className="form col-12" id="contactform">
+        <form className="form" id="contactform">
 
           {/* email  */}
           <div className="input-group mb-3">
-            <span className="input-group-text col-md-2" id="basic-addon1">email</span>
+            <span className="input-group-text col-md-2" id="basic-addon1">email *</span>
             <input
               className="form-control"
-              input type="text"
+              type="text"
               aria-label="email"
               aria-describedby="basic-addon1"
               value={email}
               name="email"
               onChange={handleInputChange}
+              onBlur={handleInputChange}
               // type="email"
               placeholder="email"
             />
@@ -86,7 +98,7 @@ const ContactForm = () => {
 
           {/* name  */}
           <div className="input-group mb-3">
-            <span className="input-group-text  col-md-2" id="basic-addon2">name</span>
+            <span className="input-group-text  col-md-2" id="basic-addon2">name *</span>
             <input
               className="form-control"
               aria-label="username"
@@ -115,15 +127,23 @@ const ContactForm = () => {
             />
           </div>
 
-          <button
-            className="btn btn-form "
+          {/* <button
+            className="btn btn-secondary justify-content-center"
+            type="button"
+            onClick={handleFormSubmit}
+          >Send</button> */}
+        </form>
+
+        <button
+            className="btn btn-secondary justify-content-center"
             type="button"
             onClick={handleFormSubmit}
           >Send</button>
-        </form>
+
+
         {errorMessage && (
           <div>
-            <p className="error-text">{errorMessage}</p>
+            <p className="error-text " style={{ color: 'red' }}>{errorMessage}</p>
           </div>
         )}
       </div>

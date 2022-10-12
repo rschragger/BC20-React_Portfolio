@@ -11,6 +11,10 @@
   This has been deployed to both:<br>
  Github pages: https://rschragger.github.io/BC20-React_Portfolio/ <br>
  Heroku: https://rs-my-folio.herokuapp.com/
+
+ ### Screenshots
+ 
+ ![Screenshot of About me page](src/assets/images/AboutMe-Screenshot.png)
   
   ## Table of Contents
   

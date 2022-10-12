@@ -87,6 +87,11 @@ header {
   padding: var(--padding); */
 }
 
+.subhead{
+  margin-top: 10px;
+  margin-bottom: 3px;
+}
+
 .logo-img{
 max-width: 250px;
 padding: var(--padding);
