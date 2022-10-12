@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/BC20-React_Portfolio/static/css/main.502cb166.css",
-    "main.js": "/BC20-React_Portfolio/static/js/main.0badbcf0.js",
+    "main.css": "/BC20-React_Portfolio/static/css/main.af6cdd1d.css",
+    "main.js": "/BC20-React_Portfolio/static/js/main.3ac2b31e.js",
     "static/js/787.972a6553.chunk.js": "/BC20-React_Portfolio/static/js/787.972a6553.chunk.js",
     "static/media/SandbarPointWalter.jpg": "/BC20-React_Portfolio/static/media/SandbarPointWalter.95de90424f344ba24015.jpg",
     "static/media/ReeveSchragger_Headshot.jpg": "/BC20-React_Portfolio/static/media/ReeveSchragger_Headshot.989188b990cfe1046453.jpg",
     "index.html": "/BC20-React_Portfolio/index.html",
-    "main.502cb166.css.map": "/BC20-React_Portfolio/static/css/main.502cb166.css.map",
-    "main.0badbcf0.js.map": "/BC20-React_Portfolio/static/js/main.0badbcf0.js.map",
+    "main.af6cdd1d.css.map": "/BC20-React_Portfolio/static/css/main.af6cdd1d.css.map",
+    "main.3ac2b31e.js.map": "/BC20-React_Portfolio/static/js/main.3ac2b31e.js.map",
     "787.972a6553.chunk.js.map": "/BC20-React_Portfolio/static/js/787.972a6553.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.502cb166.css",
-    "static/js/main.0badbcf0.js"
+    "static/css/main.af6cdd1d.css",
+    "static/js/main.3ac2b31e.js"
   ]
 }
