@@ -176,6 +176,13 @@ nav {
   /* Mozilla-based browsers will ignore this. */
   width: fill-available;
 }
+/* -- Named Colours ----------------------------------- */
+.thistle{background-color:thistle; color:black}
+.mediumaquamarine{background-color:mediumaquamarine;color:black}
+.mistyrose{background-color:mistyrose;color:black}
+.rosybrown{background-color:rosybrown;color:black}
+.navajowhite{background-color:navajowhite;color:black} 
+
 
 /* --Form and Validation------------------------------------ */
 

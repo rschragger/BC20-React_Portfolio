@@ -1,7 +1,7 @@
 import React from 'react'
 
 
-const Resume = ({ refereeData, qualificationsData, workHistoryData }) => {
+const Resume = ({ refereeData, qualificationsData, techData, workHistoryData }) => {
   return (
     <div className='container-fluid'>
       <br />
@@ -22,6 +22,8 @@ const Resume = ({ refereeData, qualificationsData, workHistoryData }) => {
         <li><a href='mailto:reeve@whitestudio.net.au' >reeve@whitestudio.net.au</a></li>
 
       </ul>
+
+      {/* Personal Strengths  */}
       <h4 className='subhead'>Personal Strengths</h4>
       <div className='strengths'>
         Excellent understanding of systems, especially computer and workflow systems.
@@ -30,8 +32,16 @@ const Resume = ({ refereeData, qualificationsData, workHistoryData }) => {
         Good business foundations and the ability to think through strategies and implications of actions.<br />
         Well-liked and easy to work with, inspiring loyalty in my staff.<br />
         Clearance for secure Government Print (State of Victoria)<br />
-        Have always been able to operate computer programs across PC and Mac platforms at an advanced level. Some examples of programs I have high proficiency in include;<br />
-        FileMaker Pro, Applescript®, Illustrator, PhotoShop, Acrobat, Indesign, Pitstop, Microsoft Excel, Microsoft Word, Pageflex, DirectSmile<br />
+        Have always been able to operate computer programs across PC and Mac platforms at an advanced level. Some examples of programs I have proficiency in include;<br />
+
+        {
+          techData.map((td)=>(
+            <div className={"badge m-1 "+ td.colour} style={{color:'black'}} key={td.id}>{td.tech}</div>
+         ))
+        }
+       
+        {/* <div className='badge text-bg-red' >test1</div>
+        FileMaker Pro, Applescript®, Illustrator, PhotoShop, Acrobat, Indesign, Pitstop, Microsoft Excel, Microsoft Word, Pageflex, DirectSmile<br /> */}
       </div>
 
       {/* work history  */}

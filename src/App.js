@@ -17,6 +17,7 @@ import projectsData from './assets/data/projectsData.json'
 import qualificationsData from './assets/data/qualificationsData.json'
 import refereeData from './assets/data/refereeData.json'
 import workHistoryData from './assets/data/workHistoryData.json'
+import techData from './assets/data/techData.json'
 
 //import logo from './logo.svg';
 
@@ -38,6 +39,7 @@ function App() {
         refereeData={refereeData}
         workHistoryData={workHistoryData}
         qualificationsData={qualificationsData}
+        techData={techData}
       />) : ('')}
 
       <Footer />

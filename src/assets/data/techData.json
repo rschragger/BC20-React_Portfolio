@@ -1,0 +1,198 @@
+[
+  {
+    "id": 1,
+    "tech": "HTML",
+    "area": "frontend",
+    "colour": "thistle",
+    "style": "{backgroundColor:'thistle',color:'black'}"
+  },
+  {
+    "id": 2,
+    "tech": "CSS",
+    "area": "frontend",
+    "colour": "thistle",
+    "style": "{backgroundColor:'thistle',color:'black'}"
+  },
+  {
+    "id": 3,
+    "tech": "JavaScript",
+    "area": "fullstack",
+    "colour": "mediumaquamarine",
+    "style": "{backgroundColor:'mediumaquamarine',color:'black'}"
+  },
+  {
+    "id": 4,
+    "tech": "Applescript",
+    "area": "os",
+    "colour": "mistyrose",
+    "style": "{backgroundColor:'mistyrose',color:'black'}"
+  },
+  {
+    "id": 5,
+    "tech": "jQuery",
+    "area": "frontend",
+    "colour": "thistle",
+    "style": "{backgroundColor:'thistle',color:'black'}"
+  },
+  {
+    "id": 6,
+    "tech": "Heroku",
+    "area": "fullstack",
+    "colour": "mediumaquamarine",
+    "style": "{backgroundColor:'mediumaquamarine',color:'black'}"
+  },
+  {
+    "id": 7,
+    "tech": "Git",
+    "area": "fullstack",
+    "colour": "mediumaquamarine",
+    "style": "{backgroundColor:'mediumaquamarine',color:'black'}"
+  },
+  {
+    "id": 8,
+    "tech": "MySQL",
+    "area": "backend",
+    "colour": "rosybrown",
+    "style": "{backgroundColor:'rosybrown',color:'black'}"
+  },
+  {
+    "id": 9,
+    "tech": "MongoDB",
+    "area": "backend",
+    "colour": "rosybrown",
+    "style": "{backgroundColor:'rosybrown',color:'black'}"
+  },
+  {
+    "id": 10,
+    "tech": "Filemaker Pro",
+    "area": "fullstack",
+    "colour": "mediumaquamarine",
+    "style": "{backgroundColor:'mediumaquamarine',color:'black'}"
+  },
+  {
+    "id": 11,
+    "tech": "Node.js",
+    "area": "fullstack",
+    "colour": "mediumaquamarine",
+    "style": "{backgroundColor:'mediumaquamarine',color:'black'}"
+  },
+  {
+    "id": 12,
+    "tech": "Express",
+    "area": "fullstack",
+    "colour": "mediumaquamarine",
+    "style": "{backgroundColor:'mediumaquamarine',color:'black'}"
+  },
+  {
+    "id": 13,
+    "tech": "react",
+    "area": "frontend",
+    "colour": "thistle",
+    "style": "{backgroundColor:'thistle',color:'black'}"
+  },
+  {
+    "id": 14,
+    "tech": "MERN Stack",
+    "area": "fullstack",
+    "colour": "mediumaquamarine",
+    "style": "{backgroundColor:'mediumaquamarine',color:'black'}"
+  },
+  {
+    "id": 15,
+    "tech": "Acrobat",
+    "area": "os",
+    "colour": "mistyrose",
+    "style": "{backgroundColor:'mistyrose',color:'black'}"
+  },
+  {
+    "id": 16,
+    "tech": "Illustrator",
+    "area": "design",
+    "colour": "navajowhite",
+    "style": "{backgroundColor:'navajowhite',color:'black'}"
+  },
+  {
+    "id": 17,
+    "tech": "InDesign",
+    "area": "design",
+    "colour": "navajowhite",
+    "style": "{backgroundColor:'navajowhite',color:'black'}"
+  },
+  {
+    "id": 18,
+    "tech": "Photoshop",
+    "area": "design",
+    "colour": "navajowhite",
+    "style": "{backgroundColor:'navajowhite',color:'black'}"
+  },
+  {
+    "id": 19,
+    "tech": "Premiere",
+    "area": "design",
+    "colour": "navajowhite",
+    "style": "{backgroundColor:'navajowhite',color:'black'}"
+  },
+  {
+    "id": 20,
+    "tech": "Pitstop",
+    "area": "design",
+    "colour": "navajowhite",
+    "style": "{backgroundColor:'navajowhite',color:'black'}"
+  },
+  {
+    "id": 21,
+    "tech": "SmartStream",
+    "area": "design",
+    "colour": "navajowhite",
+    "style": "{backgroundColor:'navajowhite',color:'black'}"
+  },
+  {
+    "id": 22,
+    "tech": "Pageflex",
+    "area": "design",
+    "colour": "navajowhite",
+    "style": "{backgroundColor:'navajowhite',color:'black'}"
+  },
+  {
+    "id": 23,
+    "tech": "Quite Tools",
+    "area": "design",
+    "colour": "navajowhite",
+    "style": "{backgroundColor:'navajowhite',color:'black'}"
+  },
+  {
+    "id": 24,
+    "tech": "Terminal/CLI",
+    "area": "os",
+    "colour": "mistyrose",
+    "style": "{backgroundColor:'mistyrose',color:'black'}"
+  },
+  {
+    "id": 25,
+    "tech": "DirectSmile",
+    "area": "design",
+    "colour": "navajowhite",
+    "style": "{backgroundColor:'navajowhite',color:'black'}"
+  },
+  {
+    "id": 26,
+    "tech": "Microsoft office",
+    "area": "os",
+    "colour": "mistyrose",
+    "style": "{backgroundColor:'mistyrose',color:'black'}"
+  },
+  {
+    "id": 27,
+    "tech": "Google Office",
+    "area": "os",
+    "colour": "mistyrose",
+    "style": "{backgroundColor:'mistyrose',color:'black'}"
+  },
+  {
+    "id": 28,
+    "tech": "RIP Technology",
+    "area": "design",
+    "colour": "navajowhite",
+    "style": "{backgroundColor:'navajowhite',color:'black'}"
+  }
+ ]
