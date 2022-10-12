@@ -4,6 +4,7 @@ import React from 'react'
 const Resume = ({ refereeData, qualificationsData, workHistoryData }) => {
   return (
     <div className='container-fluid'>
+      <br />
       <h3 className='name' >Reeve Schragger</h3>
       <div className='introduction'>
         A design and production manager with great communication, computer and analytical skills, experienced in a very wide range of digital and analogue print disciplines.<br />
@@ -37,14 +38,14 @@ const Resume = ({ refereeData, qualificationsData, workHistoryData }) => {
       <h4 className='subhead'>Work History</h4>
       <div className="accordion accordion-flush" id="work-history">
         {workHistoryData.map((whd) => (
-          <div className="accordion-item" key="{whd.id}">
+          <div className="accordion-item" key={whd.id}>
             <h2 className="accordion-header" id={"flush-heading" + whd.id}>
               <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target={"#flush-collapse" + whd.id} aria-expanded="false" aria-controls={"flush-collapse" + whd.id}>
                 <div className="workdates">{whd.from}-{whd.to}</div>
                 <div>&emsp;</div>
                 <div className="position">{whd.position}</div>
                 <div>&emsp;-&emsp;</div>
-                <div className="company">{whd.company}</div>
+                <div className="company small">{whd.company}</div>
               </button>
             </h2>
             <div id={"flush-collapse" + whd.id} className="accordion-collapse collapse" aria-labelledby={"flush-heading" + whd.id} data-bs-parent="#accordionFlushExample">
@@ -66,7 +67,7 @@ const Resume = ({ refereeData, qualificationsData, workHistoryData }) => {
       <h4 className='subhead'>Education</h4>
       <div className="accordion accordion-flush" id="education">
         {qualificationsData.map((qual) => (
-          <div className="accordion-item" key="{qual.id}">
+          <div className="accordion-item" key={qual.id}>
             <h2 className="accordion-header" id={"flush-heading-q" + qual.id}>
               <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target={"#flush-collapse-q" + qual.id} aria-expanded="false" aria-controls={"flush-collapse-q" + qual.id}>
                 <div className="workdates">{qual.date}</div>
@@ -76,8 +77,38 @@ const Resume = ({ refereeData, qualificationsData, workHistoryData }) => {
             </h2>
             <div id={"flush-collapse-q" + qual.id} className="accordion-collapse collapse" aria-labelledby={"flush-heading-q" + qual.id} data-bs-parent="#accordionFlushExample">
               <div className="accordion-body">
-              <div className="workdates">
-                {qual.begun}-{qual.date}&emsp;{qual.institution}
+                <div className="workdates">
+                  {qual.begun}-{qual.date}&emsp;{qual.institution}
+                </div>
+              </div>
+            </div>
+          </div>
+
+        ))}
+      </div>
+
+      {/* referees  */}
+      <h4 className='subhead'>Referees</h4>
+      <div className="accordion accordion-flush" id="education">
+        {refereeData.map((refr) => (
+          <div className="accordion-item" key={refr.id}>
+            <h2 className="accordion-header" id={"flush-heading-q" + refr.id}>
+              <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target={"#flush-collapse-q" + refr.id} aria-expanded="false" aria-controls={"flush-collapse-q" + refr.id}>
+                <div className="text-bolder"> {refr.name}</div>
+                <div>&emsp;-&emsp;</div>
+                <div className='italic'>{refr.position}</div>
+                <div>&emsp;</div>
+                <div className="company small">{refr.company}</div>
+                {/* - <a href={'tel:' + refr.mobile}>{refr.mobile}</a> */}
+              </button>
+            </h2>
+            <div id={"flush-collapse-q" + refr.id} className="accordion-collapse collapse" aria-labelledby={"flush-heading-q" + refr.id} data-bs-parent="#accordionFlushExample">
+              <div className="accordion-body">
+                <div className="refr-group">
+                  <div>{refr.position}</div>
+                  <div>{refr.company}</div>
+                  <div><a href={'tel:' + refr.mobile}>{refr.mobile}</a></div>
+                  <div><a href={'mailto:' + refr.email}>{refr.email}</a></div>
                 </div>
               </div>
             </div>

@@ -1,34 +1,47 @@
 [
   {
     "id": 1,
-    "Name": "Mr. Andrew Smith",
-    "Position": "Managing Director, Pictureworks Group",
-    "Mobile": "0402 224 043",
-    "Email": "andrew.smith@pictureworks.com.au",
-    "Type": "Professional"
+    "name": "Mr. Andrew Smith",
+    "position": "Managing Director",
+    "company": "Pictureworks Group",
+    "mobile": "0402 224 043",
+    "email": "andrew.smith@pictureworks.com.au",
+    "type": "Professional"
   },
   {
     "id": 2,
-    "Name": "Mrs. Kim Mitchell",
-    "Position": "Managing Director at Doculink Pty Ltd",
-    "Mobile": "0419 552 163",
-    "Email": "kmitchell@doculink.com.au",
-    "Type": "Professional"
+    "name": "Mrs. Kim Mitchell",
+    "position": "Managing Director",
+    "company": "Doculink Pty Ltd",
+    "mobile": "0419 552 163",
+    "email": "kmitchell@doculink.com.au",
+    "type": "Professional"
   },
   {
     "id": 3,
-    "Name": "Mr. Agilen Jacob Kandan",
-    "Position": "eCommerce Manager at Lithocraft Pty Ltd",
-    "Mobile": "0401 854 145",
-    "Email": "agilenk@gmail.com",
-    "Type": "Professional"
+    "name": "Mr. Agilen Jacob Kandan",
+    "position": "eCommerce Manager",
+    "company": "Lithocraft Pty Ltd",
+    "mobile": "0401 854 145",
+    "email": "agilenk@gmail.com",
+    "type": "Professional"
   },
   {
     "id": 4,
-    "Name": "Mr Mal Campbell",
-    "Position": "Managing Director, Tenderprint",
-    "Mobile": "0412 866 196",
-    "Email": "mal@tenderprint.com.au",
-    "Type": "Professional"
+    "name": "Mr Mal Campbell",
+    "position": "Managing Director",
+    "company": "Tenderprint",
+    "mobile": "0412 866 196",
+    "email": "mal@tenderprint.com.au",
+    "type": "Professional"
+  },
+  {
+    "id": 5,
+    "name": "Mr. Ian Raizon ",
+    "position": "Partner",
+    "company": "Lasky Raizon Property Group",
+    "mobile": "0419 690 995",
+    "email": "",
+    "type": "Personal"
   }
  ]

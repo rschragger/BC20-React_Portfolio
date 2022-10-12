@@ -15,7 +15,7 @@
   },
   {
     "id": 3,
-    "section": "Contact",
+    "section": "Contact Me",
     "tooltip": "Send me a message",
     "url": "/",
     "sectionName": "ContactForm"
