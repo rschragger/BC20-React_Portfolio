@@ -10,7 +10,7 @@ const Footer = ({ myProfiles, copyrightStyle }) => {
           <li className="ms-3" key={item.id}><a className="text-muted" href={item.link} target="_blank">{item.name}</a></li>
         ))}
       </ul>
-     
+     <br/>
       <div className="Copyright small justify-content-end d-flex" style={copyrightStyle} >Copyright &copy; 2022 - Reeve Schragger</div>
 
 
