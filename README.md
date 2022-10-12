@@ -13,7 +13,7 @@
  Heroku: https://rs-my-folio.herokuapp.com/
 
  ### Screenshots
- 
+
  ![Screenshot of About me page](src/assets/images/AboutMe-Screenshot.png)
   
   ## Table of Contents
@@ -43,7 +43,7 @@
 - CSS
 - JavaScript
 - React
-- Node
+- Nodejs
 </p>
 
 ###  Third Party Assets
