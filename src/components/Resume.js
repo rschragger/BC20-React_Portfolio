@@ -18,9 +18,10 @@ const Resume = ({ refereeData, qualificationsData, techData, workHistoryData }) 
       {/* personal details  */}
       <h4 className='subhead'>Personal Details	</h4>
       <div className='container d-flex flex-wrap justify-content-evenly'>
-        <div className="col-3  ">
+        <div className='row'>
+        <div className="col-12 col-sm-3 ">
           <img alt="Reeve Schragger headshot"  src={reeveImage} style={{ maxWidth: '100px' }} />  
-          {/* <img alt="Reeve Schragger headshot"  src={reeveImage} style={{ maxWidth: '100px' }} /> */}
+  
         </div>
 
         <ul className='list-unstyled col-8'>
@@ -29,8 +30,11 @@ const Resume = ({ refereeData, qualificationsData, techData, workHistoryData }) 
           <li>Ormond VIC 3204</li>
           <li>0423 707 276</li>
           <li><a href='mailto:reeve@whitestudio.net.au' >reeve@whitestudio.net.au</a></li>
-
+          {/* <li><a href={resumePdf} download="ReeveSchragger_CV.pdf" ><button className='btn btn-secondary p-0' >Download this resumé</button></a></li> */}
+          <li><a href={ resumePdf} download="ReeveSchragger_CV" ><button className='btn btn-secondary p-0' >Download this resumé</button></a></li>
+          {/* <li><a href={resumePdf} target="_blank"  ><button className='btn btn-secondary p-0' >Download this resumé</button></a></li> */}
         </ul>
+        </div>
       </div>
       {/* Personal Strengths  */}
       <h4 className='subhead'>Personal Strengths</h4>
