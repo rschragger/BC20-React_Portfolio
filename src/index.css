@@ -302,6 +302,16 @@ nav {
   border-top: 1pt solid var(--light);
 }
 
+.workdates{
+  font-size: 85%;
+  font-weight: bolder;
+}
+
+.company{
+  font-weight: bolder;
+  font-style: italic;
+}
+
 
 /* -------Buttons------------------------------- */
 

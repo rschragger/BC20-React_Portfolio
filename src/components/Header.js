@@ -1,5 +1,5 @@
 import React from 'react'
-import Navigation from './Navigation'
+//import Navigation from './Navigation'
 import headerImage from '../assets/images/SandbarPointWalter.jpg'
 // import navData from '../assets/data/navData.json'
 

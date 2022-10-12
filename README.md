@@ -33,40 +33,37 @@
   Usage Instructions: Follow links to get information
   
   ## Credits
-   
-  
 
-  Languages
+###  Languages
 - HTML
 - CSS
 - JavaScript
-- 
 - React
 - Node
 </p>
-</p>
-  
-  Third Party Assets
+
+###  Third Party Assets
 - bootstrap
 - gh-pages
 - react
 - react-dom
 - react-scripts
 - web-vitals
+- emailjs/browser
 </p>
   
-  Tutorials
+###  Tutorials
 - https://getbootstrap.com/docs
 - https://stackoverflow.com/
 - https://reactjs.org/docs
-- 
+- https://www.emailjs.com/docs
+- https://medium.com/
+
 </p>
   
   ## License
    
-  This application is licensed under Creative Commons
-
-  CC0
+  This application is licensed under Creative Commons - CC0
   
   ## Features
    

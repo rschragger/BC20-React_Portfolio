@@ -2,31 +2,55 @@
   {
     "id": 1,
     "level": "Tertiary",
-    "courseName": "Monash University Coding Boot Camp 2022",
+    "courseName": "Monash University Coding Boot Camp",
+    "institution": "Monash University, Victoria",
+    "date": 2022,
+    "begun": 2022,
+    "show": "active"
+  },
+  {
+    "id": 4,
+    "level": "Other",
+    "courseName": "Senior First Aid",
+    "institution": "St Johns Ambulance",
+    "date": 2017,
+    "begun": 1990,
     "show": "active"
   },
   {
     "id": 2,
     "level": "Tertiary",
-    "courseName": "Bachelor of Arts in Product Design - Curtin University, Western Australia",
+    "courseName": "Bachelor of Arts in Product Design",
+    "institution": "Curtin University, Western Australia",
+    "date": 1994,
+    "begun": 1990,
     "show": "active"
   },
   {
     "id": 3,
-    "level": "Tertiary",
-    "courseName": "Bachelor of Engineering (1 Semester- Passed) - University of Western Australia",
+    "level": "Other",
+    "courseName": "Bachelor of Engineering (1 Semester- Passed)",
+    "institution": "University of Western Australia",
+    "date": 1989,
+    "begun": 1989,
     "show": ""
   },
   {
-    "id": 4,
+    "id": 5,
     "level": "Other",
-    "courseName": "First Aid (1990 & 2017)",
-    "show": "active"
+    "courseName": "Youth Leadership Programme",
+    "institution": "Institute for Youth Leaders, Israel ",
+    "date": 1988,
+    "begun": 1988,
+    "show": ""
   },
   {
     "id": 5,
-    "level": "High School",
-    "courseName": "Gifted and Talented Programme - Mt Lawley Senior High",
+    "level": "Other",
+    "courseName": "Gifted and Talented Programme",
+    "institution": "Mt Lawley Senior High, Western Australia",
+    "date": 1987,
+    "begun": 1983,
     "show": ""
   }
  ]

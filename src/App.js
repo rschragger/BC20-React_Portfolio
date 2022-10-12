@@ -18,11 +18,11 @@ import qualificationsData from './assets/data/qualificationsData.json'
 import refereeData from './assets/data/refereeData.json'
 import workHistoryData from './assets/data/workHistoryData.json'
 
-import logo from './logo.svg';
+//import logo from './logo.svg';
 
 
 function App() {
-  const [sector, setSector] = useState('ContactForm');
+  const [sector, setSector] = useState('AboutMe');
   const handleSector = (sector) => setSector(sector);
 
   return (
