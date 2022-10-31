@@ -57,6 +57,7 @@
   },
   {
     "id": 8,
+    "imageUrl":"https://github.com/rschragger/Activity_Arranger_Aide/blob/main/Notes/ActivityArranger_WhoWhat.png",
     "title": "Activity Arranger",
     "description": "A friendship group movie picker. ",
     "deployedLink": "https://activity-arranger.herokuapp.com/",
