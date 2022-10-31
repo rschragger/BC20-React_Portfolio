@@ -54,5 +54,12 @@
     "description": "A full stack tech blog that allows for posting about tech by multiple authorised users. Posts are able to be commented on by other authorised users.",
     "deployedLink": "https://tech-talky-talk.herokuapp.com/",
     "githubLink": "https://github.com/rschragger/BC14-Tech-Blog"
+  },
+  {
+    "id": 8,
+    "title": "Activity Arranger",
+    "description": "A friendship group movie picker. ",
+    "deployedLink": "https://activity-arranger.herokuapp.com/",
+    "githubLink": "https://github.com/rschragger/Activity_Arranger_Aide"
   }
  ]
