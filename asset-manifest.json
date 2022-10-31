@@ -1,18 +1,18 @@
 {
   "files": {
     "main.css": "/BC20-React_Portfolio/static/css/main.d02a9cdb.css",
-    "main.js": "/BC20-React_Portfolio/static/js/main.a817553b.js",
+    "main.js": "/BC20-React_Portfolio/static/js/main.749d796c.js",
     "static/js/787.972a6553.chunk.js": "/BC20-React_Portfolio/static/js/787.972a6553.chunk.js",
     "static/media/SandbarPointWalter.jpg": "/BC20-React_Portfolio/static/media/SandbarPointWalter.95de90424f344ba24015.jpg",
     "static/media/ReeveSchragger_Headshot.jpg": "/BC20-React_Portfolio/static/media/ReeveSchragger_Headshot.989188b990cfe1046453.jpg",
     "static/media/CV-ReeveSchragger_2022.pdf": "/BC20-React_Portfolio/static/media/CV-ReeveSchragger_2022.794d7a47e2cad2507e7d.pdf",
     "index.html": "/BC20-React_Portfolio/index.html",
     "main.d02a9cdb.css.map": "/BC20-React_Portfolio/static/css/main.d02a9cdb.css.map",
-    "main.a817553b.js.map": "/BC20-React_Portfolio/static/js/main.a817553b.js.map",
+    "main.749d796c.js.map": "/BC20-React_Portfolio/static/js/main.749d796c.js.map",
     "787.972a6553.chunk.js.map": "/BC20-React_Portfolio/static/js/787.972a6553.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d02a9cdb.css",
-    "static/js/main.a817553b.js"
+    "static/js/main.749d796c.js"
   ]
 }
